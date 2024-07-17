@@ -1,0 +1,13 @@
+Single integer input and output
+
+String output
+
+New line ( printn)
+
+comment (;)
+
+Text print (print " ")
+
+String End with $
+
+String Value Assign - value  Name Data_bit " Your Text.$"
