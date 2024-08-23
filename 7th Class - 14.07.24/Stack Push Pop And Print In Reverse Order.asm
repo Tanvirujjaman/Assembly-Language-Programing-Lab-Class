@@ -33,10 +33,11 @@ jmp for1
 output:
 printn
 print "Reversed string is: " 
-
+;cx value already initialize from up
 for2:
-pop bx          ; popping from the last push in the stack
-mov dx,bx
+;pop bx          ; popping from the last push in the stack
+;mov dx,bx
+pop dx          ; directly poping in dx register 
 mov ah,02h
 int 21h
 ;dec cx         ; for user defeine loop
